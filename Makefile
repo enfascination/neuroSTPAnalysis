@@ -1,5 +1,10 @@
-run:
+all: init nii2stp
+
+init:
+	module load python/3-Anaconda
 	source activate neuro 
+
+nii2stp:
 	python step1_nii2stp.py
 
 clean:
