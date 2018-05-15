@@ -1,0 +1,8 @@
+import os
+
+path_datain = "path"
+path_dataout = "path"
+base_dir= "path"
+base_early_dir= "path"
+preproc_dir = os.path.join(base_dir,'preprocessed','final')
+annot_dir = os.path.join(base_early_dir,'analysis/annotations')
